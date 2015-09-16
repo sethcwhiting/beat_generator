@@ -1,0 +1,101 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beat Generator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+				<th class="num">1</th>
+				<th class="ea">e</th>
+				<th class="and">&amp;</th>
+				<th class="ea">a</th>
+				<th class="num">2</th>
+				<th class="ea">e</th>
+				<th class="and">&amp;</th>
+				<th class="ea">a</th>
+				<th class="num">3</th>
+				<th class="ea">e</th>
+				<th class="and">&amp;</th>
+				<th class="ea">a</th>
+				<th class="num">4</th>
+				<th class="ea">e</th>
+				<th class="and">&amp;</th>
+				<th class="ea">a</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="type">HiHat</td>
+				<td class="standard hihat"></td>
+				<td class="hihat"></td>
+				<td class="standard hihat"></td>
+				<td class="hihat"></td>
+				<td class="standard hihat"></td>
+				<td class="hihat"></td>
+				<td class="standard hihat"></td>
+				<td class="hihat"></td>
+				<td class="standard hihat"></td>
+				<td class="hihat"></td>
+				<td class="standard hihat"></td>
+				<td class="hihat"></td>
+				<td class="standard hihat"></td>
+				<td class="hihat"></td>
+				<td class="standard hihat"></td>
+				<td class="hihat"></td>
+			</tr>
+			<tr>
+				<td class="type">Snare</td>
+				<td id="snare-1"></td>
+				<td id="snare-9"></td>
+				<td id="snare-5"></td>
+				<td id="snare-10"></td>
+				<td class="standard" id="snare-2"></td>
+				<td id="snare-11"></td>
+				<td id="snare-6"></td>
+				<td id="snare-12"></td>
+				<td id="snare-3"></td>
+				<td id="snare-13"></td>
+				<td id="snare-7"></td>
+				<td id="snare-14"></td>
+				<td class="standard" id="snare-4"></td>
+				<td id="snare-15"></td>
+				<td id="snare-8"></td>
+				<td id="snare-16"></td>
+			</tr>
+			<tr>
+				<td class="type">Kick</td>
+				<td class="standard" id="kick-1"></td>
+				<td id="kick-9"></td>
+				<td id="kick-5"></td>
+				<td id="kick-10"></td>
+				<td id="kick-2"></td>
+				<td id="kick-11"></td>
+				<td id="kick-6"></td>
+				<td id="kick-12"></td>
+				<td class="standard" id="kick-3"></td>
+				<td id="kick-13"></td>
+				<td id="kick-7"></td>
+				<td id="kick-14"></td>
+				<td id="kick-4"></td>
+				<td id="kick-15"></td>
+				<td id="kick-8"></td>
+				<td id="kick-16"></td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<select name="level" id="level">
+		<option value="one">Level 1</option>
+		<option value="two">Level 2</option>
+		<option value="three">Level 3</option>
+	</select>
+	<button onclick="generate()">GENERATE</button>
+</body>
+<script src="jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

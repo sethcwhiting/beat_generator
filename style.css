@@ -1,0 +1,22 @@
+.and{
+	opacity: 0.5;
+}
+.ea{
+	opacity: 0;
+}
+td:not(.type){
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+}
+.hihat:nth-child(even){
+	background-color: gold;
+}
+#snare-2,
+#snare-4{
+	background-color: darkred;
+}
+#kick-1,
+#kick-3{
+	background-color: darkblue;
+}
