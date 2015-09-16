@@ -13,7 +13,7 @@ function randomize(start, stop, pair){
 		//Based on the value of the randomized number, color the square
 		//in the snare row, kick row, or leave both rows blank
 		if(rand<0.3334){
-			//If a 'pair' is specified, filling in the current note
+			//If a 'pair' is specified, fill in the current note
 			//and its mirror note to make the beat symmetrical.
 			if(pair){
 				$('#snare-'+i+', #snare-'+(i+pair)).css('background-color','darkred');
